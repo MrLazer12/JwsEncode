@@ -9,9 +9,6 @@ services:
     ports:
       - "443:443"
       - "80:80"
-    volumes:
-      - ./public:/var/www/public
-      - ./certificates:/etc/nginx
     depends_on:
       - app
 
