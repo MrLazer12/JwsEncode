@@ -35,8 +35,10 @@ example:
 ## INTERFACE
 
 ![image](https://github.com/MrLazer12/JwsEncode/assets/34424600/05eb0041-308b-400a-88ad-4bb5d5df5b6a)
-
+https://github.com/MrLazer12/JwsEncode/assets/34424600/57888cf6-e7cc-4998-8726-8a601031c3c7
 
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+
