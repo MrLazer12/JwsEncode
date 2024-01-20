@@ -1,10 +1,10 @@
 FROM nginx:latest
 
 # Suprascrie directorul de lucru
-WORKDIR /etc/nginx
+WORKDIR /var/www/html
 
 # Adaugă configurația default.conf
-COPY ./nginx /etc
+COPY ./nginx/conf.d/default.conf /etc/nginx/conf.d/default.conf
 
 # Adaugă certificatele
 COPY ./certificates /etc/nginx/ssl
