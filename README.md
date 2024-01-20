@@ -20,8 +20,7 @@ docker-compose up
 openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout selfsigned.key -out selfsigned.crt
 ```
 2. In form upload the private key(yourkey.key)
-3. Write JSON or generate random
-example:
+3. Write JSON or generate random:
 ```json
 {
   "country": 17,
